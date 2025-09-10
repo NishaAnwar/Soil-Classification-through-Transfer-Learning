@@ -1,47 +1,51 @@
-# Soil-Classification-through-Transfer-Learning
+[![Comprehensive Soil Classification Datasets | Kaggle](https://images.openai.com/thumbnails/url/IrOUiHicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw7xyMnPdU33KivNKDLyCSj1iPLP0PWNCi_JTwr3CUny8DdOs9BNTK6qighxKfI3LysPSCwrsjQwLndXKwYA3h4pqA)](https://www.kaggle.com/datasets/ai4a-lab/comprehensive-soil-classification-datasets?utm_source=chatgpt.com)
 
-📘 **Dataset Overview**
 
-Title: Comprehensive Soil Classification Dataset (GAN-Augmented)
+### 📘 Dataset Overview
 
-Source: AI4A Lab, Manipal University Jaipur, India (Kaggle link
-)
+**Title:** [Comprehensive Soil Classification Datasets](https://www.kaggle.com/datasets/ai4a-lab/comprehensive-soil-classification-datasets)
 
-# Description:
-This project uses the GAN-augmented version of the dataset, which contains over 5,000 images of soil samples generated using Generative Adversarial Networks (GANs). The GAN augmentation helps increase data variability and improves model performance for soil classification tasks.
+**Source:** AI4A Lab at Manipal University Jaipur, India ([Kaggle][1])
 
-# 🧾 Dataset Details
+**Description:**
+This dataset is designed for soil classification and recognition research. It comprises soil images sourced from various regions, aiming to aid in the development of machine learning models for soil type classification.
 
-File Format: Images (JPEG/PNG)
-Number of Files: ~5,000 (GAN-Augmented)
-Size: ~514 MB
-Primary Soil Types:
+**Dataset Versions:**
 
-Sandy
+* **Original Dataset:** Contains over 1,000 images.
+* **GAN-Augmented Dataset:** Expanded to over 5,000 images using Generative Adversarial Networks (GANs).
 
-Clayey
+---
 
-Loamy
+### 🧾 Dataset Details
 
-Peaty
+**File Format:** Images (JPEG/PNG)
 
-Saline
+**Number of Files:** 6,286
 
-Silty
+**Size:** Approximately 514 MB
 
-# Organization:
-Images are organized in folders by soil type, and each image is labeled with its corresponding soil class for supervised learning.
+**Usability Rating:** 10.0/10
 
-🔄 Preprocessing Steps Applied
+---
 
-Resizing: All images resized to a uniform dimension (e.g., 224x224 pixels)
+### 🧠 Dataset Structure
 
-Normalization: Pixel values scaled to [0, 1]
+The dataset is organized into directories based on soil types. Each directory contains images representing that specific soil type. The primary soil types included are:
 
-Augmentation (Optional): Rotation, flipping, zooming to increase variability
+* Sandy
+* Clayey
+* Loamy
+* Peaty
+* Saline
+* Silty
 
-Splitting: Dataset divided into training, validation, and test sets
+Each image is labeled with its corresponding soil type, facilitating supervised learning tasks.
 
-# 📌 Usage in Project
 
-The GAN-augmented images are used to train a Convolutional Neural Network (CNN) for soil type classification. Using the augmented dataset ensures better generalization and higher prediction accuracy.
+
+
+### 📎 Citation
+
+**AI4A Lab. (2025). Comprehensive Soil Classification Datasets. Manipal University Jaipur.**
+
